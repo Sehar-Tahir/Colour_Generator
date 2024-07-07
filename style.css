@@ -91,6 +91,7 @@ button:hover{
     color: white;
 }
 footer{
+    width: 100vw;
     height: 70px;
     background-color: black;
     display: flex;
@@ -105,4 +106,12 @@ footer{
 }
 .p-text:hover{
     color: #fff;
+}
+@media screen and (max-width: 786px){
+    ul{
+        display: none;
+    }
+.container{
+    padding: 20px;
+}
 }
